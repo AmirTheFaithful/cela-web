@@ -25,8 +25,8 @@
   font-family: $scandic;
   letter-spacing: 16px;
 
-  @include text-gradient(
-    ($chromium, $europe-sky, $monica, $croissant),
+  @include text-gradient-animated(
+    ($chromium, $europe-sky, $monica),
     $gradient-angle
   );
 }
@@ -36,5 +36,8 @@
   font-family: $scandic;
   letter-spacing: 2px;
 
-  @include text-gradient(($old-sedan, $boutique, $glamour), $gradient-angle);
+  @include text-gradient-animated(
+    ($old-sedan, $boutique, $glamour),
+    $gradient-angle
+  );
 }
