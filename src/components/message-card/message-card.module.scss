@@ -1,0 +1,22 @@
+.messageCardContainer {
+  overflow: hidden;
+  box-shadow: 5px 5px 12px #4545453c, -3px -3px 12px #e7e7e73c;
+  border-radius: 12px;
+  background-image: linear-gradient($gradient-angle, $peach, $copen-air);
+}
+
+.messageCard {
+  height: 100%;
+  padding: 12px 16px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.textContent {
+  color: $cloudy-night;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
