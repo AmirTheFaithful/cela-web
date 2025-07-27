@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
+import { PreviewPage } from "../pages/Preview";
+
 export const router = createBrowserRouter([
-  // Some routes will be added here.
+  { path: "/preview/message-card", element: <PreviewPage /> },
 ]);
