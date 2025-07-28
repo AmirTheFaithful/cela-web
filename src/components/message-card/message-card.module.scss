@@ -4,13 +4,6 @@
   box-shadow: 5px 5px 12px #4545453c, -3px -3px 12px #e7e7e73c;
   border-radius: 12px;
   background-size: 800% 800%;
-  background-image: linear-gradient(
-    $gradient-angle,
-    $peach,
-    $copen-air,
-    $boutique,
-    $monica
-  );
 }
 
 .messageCard {
@@ -32,6 +25,8 @@
 
 .meta {
   display: flex;
+  column-gap: 4px;
+  align-items: center;
   flex-direction: row-reverse;
 }
 
@@ -41,6 +36,15 @@
   font-size: 12px;
   font-family: "Inter";
   border-radius: 10px;
+}
+
+.sent,
+.received {
+  color: rgba($cloudy-night, 75%);
+}
+
+.read {
+  color: $boryspil;
 }
 
 @keyframes aurora-glide {
